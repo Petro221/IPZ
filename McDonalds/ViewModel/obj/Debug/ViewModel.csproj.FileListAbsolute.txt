@@ -1,0 +1,41 @@
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\McDonaldsDb.mdf
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\McDonaldsDb_log.ldf
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\ViewModel.dll.config
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\ViewModel.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\ViewModel.pdb
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\DataLayer.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\EntityFramework.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\Model.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\DataLayer.pdb
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\DataLayer.dll.config
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\Model.pdb
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\Model.dll.config
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\EntityFramework.xml
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\obj\Debug\ViewModel.csprojAssemblyReference.cache
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\obj\Debug\ViewModel.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\ViewModel\obj\Debug\ViewModel.pdb
+D:\Other\McDonalds\ViewModel\bin\Debug\ViewModel.dll.config
+D:\Other\McDonalds\ViewModel\bin\Debug\ViewModel.dll
+D:\Other\McDonalds\ViewModel\bin\Debug\ViewModel.pdb
+D:\Other\McDonalds\ViewModel\bin\Debug\EntityFramework.dll
+D:\Other\McDonalds\ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Other\McDonalds\ViewModel\bin\Debug\Model.dll
+D:\Other\McDonalds\ViewModel\bin\Debug\Model.pdb
+D:\Other\McDonalds\ViewModel\bin\Debug\Model.dll.config
+D:\Other\McDonalds\ViewModel\bin\Debug\EntityFramework.xml
+D:\Other\McDonalds\ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Other\McDonalds\ViewModel\obj\Debug\ViewModel.csprojAssemblyReference.cache
+D:\Other\McDonalds\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+D:\Other\McDonalds\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+D:\Other\McDonalds\ViewModel\obj\Debug\ViewModel.dll
+D:\Other\McDonalds\ViewModel\obj\Debug\ViewModel.pdb
+D:\Other\McDonalds\ViewModel\bin\Debug\ServerConnection.dll
+D:\Other\McDonalds\ViewModel\bin\Debug\ServerConnection.pdb
+D:\Other\McDonalds\ViewModel\bin\Debug\ServerConnection.dll.config
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\ViewModel\obj\Debug\ViewModel.pdb

@@ -1,0 +1,44 @@
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\McDonaldsDb.mdf
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\McDonaldsDb_log.ldf
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\DataLayer.dll.config
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\DataLayer.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\DataLayer.pdb
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\EntityFramework.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\Model.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\Model.pdb
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\Model.dll.config
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\EntityFramework.xml
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\obj\Debug\DataLayer.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\DataLayer\obj\Debug\DataLayer.pdb
+D:\Other\McDonalds\DataLayer\bin\Debug\DataLayer.dll.config
+D:\Other\McDonalds\DataLayer\bin\Debug\DataLayer.dll
+D:\Other\McDonalds\DataLayer\bin\Debug\DataLayer.pdb
+D:\Other\McDonalds\DataLayer\bin\Debug\EntityFramework.dll
+D:\Other\McDonalds\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Other\McDonalds\DataLayer\bin\Debug\Model.dll
+D:\Other\McDonalds\DataLayer\bin\Debug\Model.pdb
+D:\Other\McDonalds\DataLayer\bin\Debug\Model.dll.config
+D:\Other\McDonalds\DataLayer\bin\Debug\EntityFramework.xml
+D:\Other\McDonalds\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Other\McDonalds\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+D:\Other\McDonalds\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Other\McDonalds\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+D:\Other\McDonalds\DataLayer\obj\Debug\DataLayer.dll
+D:\Other\McDonalds\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\bin\Debug\Model.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\bin\Debug\Model.pdb
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\DataLayer\obj\Debug\DataLayer.pdb

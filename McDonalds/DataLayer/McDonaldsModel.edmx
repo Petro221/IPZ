@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="McDonaldsDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BankCreditCards">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="credit_card_number" Type="varchar" MaxLength="16" Nullable="false" />
+          <Property Name="credit_card_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="credit_card_date" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CategoryDishes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="main_dish_id" Type="int" />
+          <Property Name="number" Type="int" Nullable="false" />
+          <Property Name="price" Type="money" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MainDishes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OrderedFood">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="order_id" Type="int" Nullable="false" />
+          <Property Name="category_id" Type="int" Nullable="false" />
+          <Property Name="number" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sum_price" Type="money" Nullable="false" />
+          <Property Name="order_date" Type="date" Nullable="false" />
+          <Property Name="eat_in" Type="bit" Nullable="false" />
+          <Property Name="is_payed" Type="bit" Nullable="false" />
+          <Property Name="customer_first_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="customer_last_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ticket_number" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="first_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="last_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_OrderedFood_ToTable">
+          <End Role="CategoryDishes" Type="Self.CategoryDishes" Multiplicity="1" />
+          <End Role="OrderedFood" Type="Self.OrderedFood" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CategoryDishes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrderedFood">
+              <PropertyRef Name="category_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Table_ToTable">
+          <End Role="MainDishes" Type="Self.MainDishes" Multiplicity="0..1" />
+          <End Role="CategoryDishes" Type="Self.CategoryDishes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MainDishes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CategoryDishes">
+              <PropertyRef Name="main_dish_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Table_ToTable2">
+          <End Role="Orders" Type="Self.Orders" Multiplicity="1" />
+          <End Role="OrderedFood" Type="Self.OrderedFood" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Orders">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrderedFood">
+              <PropertyRef Name="order_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="McDonaldsDbModelStoreContainer">
+          <EntitySet Name="BankCreditCards" EntityType="Self.BankCreditCards" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CategoryDishes" EntityType="Self.CategoryDishes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MainDishes" EntityType="Self.MainDishes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrderedFood" EntityType="Self.OrderedFood" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_OrderedFood_ToTable" Association="Self.FK_OrderedFood_ToTable">
+            <End Role="CategoryDishes" EntitySet="CategoryDishes" />
+            <End Role="OrderedFood" EntitySet="OrderedFood" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Table_ToTable" Association="Self.FK_Table_ToTable">
+            <End Role="MainDishes" EntitySet="MainDishes" />
+            <End Role="CategoryDishes" EntitySet="CategoryDishes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Table_ToTable2" Association="Self.FK_Table_ToTable2">
+            <End Role="Orders" EntitySet="Orders" />
+            <End Role="OrderedFood" EntitySet="OrderedFood" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="McDonaldsDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="McDonaldsDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BankCreditCards" EntityType="McDonaldsDbModel.BankCreditCard" />
+          <EntitySet Name="CategoryDishes" EntityType="McDonaldsDbModel.CategoryDish" />
+          <EntitySet Name="MainDishes" EntityType="McDonaldsDbModel.MainDish" />
+          <EntitySet Name="OrderedFoods" EntityType="McDonaldsDbModel.OrderedFood" />
+          <EntitySet Name="Orders" EntityType="McDonaldsDbModel.Order" />
+          <EntitySet Name="Users" EntityType="McDonaldsDbModel.User" />
+          <AssociationSet Name="FK_OrderedFood_ToTable" Association="McDonaldsDbModel.FK_OrderedFood_ToTable">
+            <End Role="CategoryDish" EntitySet="CategoryDishes" />
+            <End Role="OrderedFood" EntitySet="OrderedFoods" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Table_ToTable" Association="McDonaldsDbModel.FK_Table_ToTable">
+            <End Role="MainDish" EntitySet="MainDishes" />
+            <End Role="CategoryDish" EntitySet="CategoryDishes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Table_ToTable2" Association="McDonaldsDbModel.FK_Table_ToTable2">
+            <End Role="Order" EntitySet="Orders" />
+            <End Role="OrderedFood" EntitySet="OrderedFoods" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="BankCreditCard">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="credit_card_number" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="false" />
+          <Property Name="credit_card_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="credit_card_date" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CategoryDish">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="main_dish_id" Type="Int32" />
+          <Property Name="number" Type="Int32" Nullable="false" />
+          <Property Name="price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <NavigationProperty Name="OrderedFoods" Relationship="McDonaldsDbModel.FK_OrderedFood_ToTable" FromRole="CategoryDish" ToRole="OrderedFood" />
+          <NavigationProperty Name="MainDish" Relationship="McDonaldsDbModel.FK_Table_ToTable" FromRole="CategoryDish" ToRole="MainDish" />
+        </EntityType>
+        <EntityType Name="MainDish">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="CategoryDishes" Relationship="McDonaldsDbModel.FK_Table_ToTable" FromRole="MainDish" ToRole="CategoryDish" />
+        </EntityType>
+        <EntityType Name="OrderedFood">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="order_id" Type="Int32" Nullable="false" />
+          <Property Name="category_id" Type="Int32" Nullable="false" />
+          <Property Name="number" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="CategoryDish" Relationship="McDonaldsDbModel.FK_OrderedFood_ToTable" FromRole="OrderedFood" ToRole="CategoryDish" />
+          <NavigationProperty Name="Order" Relationship="McDonaldsDbModel.FK_Table_ToTable2" FromRole="OrderedFood" ToRole="Order" />
+        </EntityType>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sum_price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="order_date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="eat_in" Type="Boolean" Nullable="false" />
+          <Property Name="is_payed" Type="Boolean" Nullable="false" />
+          <Property Name="customer_first_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="customer_last_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ticket_number" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="OrderedFoods" Relationship="McDonaldsDbModel.FK_Table_ToTable2" FromRole="Order" ToRole="OrderedFood" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="first_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="last_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_OrderedFood_ToTable">
+          <End Type="McDonaldsDbModel.CategoryDish" Role="CategoryDish" Multiplicity="1" />
+          <End Type="McDonaldsDbModel.OrderedFood" Role="OrderedFood" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CategoryDish">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrderedFood">
+              <PropertyRef Name="category_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Table_ToTable">
+          <End Type="McDonaldsDbModel.MainDish" Role="MainDish" Multiplicity="0..1" />
+          <End Type="McDonaldsDbModel.CategoryDish" Role="CategoryDish" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MainDish">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CategoryDish">
+              <PropertyRef Name="main_dish_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Table_ToTable2">
+          <End Type="McDonaldsDbModel.Order" Role="Order" Multiplicity="1" />
+          <End Type="McDonaldsDbModel.OrderedFood" Role="OrderedFood" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Order">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrderedFood">
+              <PropertyRef Name="order_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="McDonaldsDbModelStoreContainer" CdmEntityContainer="McDonaldsDbEntities">
+          <EntitySetMapping Name="BankCreditCards">
+            <EntityTypeMapping TypeName="McDonaldsDbModel.BankCreditCard">
+              <MappingFragment StoreEntitySet="BankCreditCards">
+                <ScalarProperty Name="credit_card_date" ColumnName="credit_card_date" />
+                <ScalarProperty Name="credit_card_name" ColumnName="credit_card_name" />
+                <ScalarProperty Name="credit_card_number" ColumnName="credit_card_number" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CategoryDishes">
+            <EntityTypeMapping TypeName="McDonaldsDbModel.CategoryDish">
+              <MappingFragment StoreEntitySet="CategoryDishes">
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="number" ColumnName="number" />
+                <ScalarProperty Name="main_dish_id" ColumnName="main_dish_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MainDishes">
+            <EntityTypeMapping TypeName="McDonaldsDbModel.MainDish">
+              <MappingFragment StoreEntitySet="MainDishes">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrderedFoods">
+            <EntityTypeMapping TypeName="McDonaldsDbModel.OrderedFood">
+              <MappingFragment StoreEntitySet="OrderedFood">
+                <ScalarProperty Name="number" ColumnName="number" />
+                <ScalarProperty Name="category_id" ColumnName="category_id" />
+                <ScalarProperty Name="order_id" ColumnName="order_id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Orders">
+            <EntityTypeMapping TypeName="McDonaldsDbModel.Order">
+              <MappingFragment StoreEntitySet="Orders">
+                <ScalarProperty Name="ticket_number" ColumnName="ticket_number" />
+                <ScalarProperty Name="customer_last_name" ColumnName="customer_last_name" />
+                <ScalarProperty Name="customer_first_name" ColumnName="customer_first_name" />
+                <ScalarProperty Name="is_payed" ColumnName="is_payed" />
+                <ScalarProperty Name="eat_in" ColumnName="eat_in" />
+                <ScalarProperty Name="order_date" ColumnName="order_date" />
+                <ScalarProperty Name="sum_price" ColumnName="sum_price" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="McDonaldsDbModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="last_name" ColumnName="last_name" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

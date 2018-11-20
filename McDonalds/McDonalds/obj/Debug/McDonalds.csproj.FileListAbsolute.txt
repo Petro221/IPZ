@@ -1,0 +1,103 @@
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\McDonaldsDb.mdf
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\McDonaldsDb_log.ldf
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\McDonalds.exe.config
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\McDonalds.exe
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\McDonalds.pdb
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\EntityFramework.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\Model.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\ViewModel.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\DataLayer.dll
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\Model.pdb
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\Model.dll.config
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\ViewModel.pdb
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\ViewModel.dll.config
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\EntityFramework.xml
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\DataLayer.pdb
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\bin\Debug\DataLayer.dll.config
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds.csprojAssemblyReference.cache
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\LoginView.g.cs
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\MainView.g.cs
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\Registration.g.cs
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\App.g.cs
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds_MarkupCompile.cache
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds_MarkupCompile.lref
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\LoginView.baml
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\MainView.baml
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\Registration.baml
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds.g.resources
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds.Properties.Resources.resources
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds.csproj.GenerateResource.cache
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds.csproj.CoreCompileInputs.cache
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds.csproj.CopyComplete
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds.exe
+D:\Documents\Google Drive\Lviv Polytechnic National University\3 cource 1 semester\SE colege\Lab_2\McDonalds\McDonalds\obj\Debug\McDonalds.pdb
+D:\Other\McDonalds\McDonalds\bin\Debug\McDonalds.exe.config
+D:\Other\McDonalds\McDonalds\bin\Debug\McDonalds.exe
+D:\Other\McDonalds\McDonalds\bin\Debug\McDonalds.pdb
+D:\Other\McDonalds\McDonalds\bin\Debug\EntityFramework.dll
+D:\Other\McDonalds\McDonalds\bin\Debug\EntityFramework.SqlServer.dll
+D:\Other\McDonalds\McDonalds\bin\Debug\Model.dll
+D:\Other\McDonalds\McDonalds\bin\Debug\ViewModel.dll
+D:\Other\McDonalds\McDonalds\bin\Debug\ServerConnection.dll
+D:\Other\McDonalds\McDonalds\bin\Debug\Model.pdb
+D:\Other\McDonalds\McDonalds\bin\Debug\Model.dll.config
+D:\Other\McDonalds\McDonalds\bin\Debug\ViewModel.pdb
+D:\Other\McDonalds\McDonalds\bin\Debug\ViewModel.dll.config
+D:\Other\McDonalds\McDonalds\bin\Debug\EntityFramework.xml
+D:\Other\McDonalds\McDonalds\bin\Debug\EntityFramework.SqlServer.xml
+D:\Other\McDonalds\McDonalds\bin\Debug\ServerConnection.pdb
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds.csprojAssemblyReference.cache
+D:\Other\McDonalds\McDonalds\obj\Debug\LoginView.g.cs
+D:\Other\McDonalds\McDonalds\obj\Debug\MainView.g.cs
+D:\Other\McDonalds\McDonalds\obj\Debug\Registration.g.cs
+D:\Other\McDonalds\McDonalds\obj\Debug\App.g.cs
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds_MarkupCompile.cache
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds_MarkupCompile.lref
+D:\Other\McDonalds\McDonalds\obj\Debug\LoginView.baml
+D:\Other\McDonalds\McDonalds\obj\Debug\MainView.baml
+D:\Other\McDonalds\McDonalds\obj\Debug\Registration.baml
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds.g.resources
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds.Properties.Resources.resources
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds.csproj.GenerateResource.cache
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds.csproj.CoreCompileInputs.cache
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds.csproj.CopyComplete
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds.exe
+D:\Other\McDonalds\McDonalds\obj\Debug\McDonalds.pdb
+D:\Other\McDonalds\McDonalds\bin\Debug\ServerConnection.dll.config
+D:\Other\McDonalds\McDonalds\obj\Debug\CreditCardView.g.cs
+D:\Other\McDonalds\McDonalds\obj\Debug\CreditCardView.baml
+C:\Users\User\Desktop\McDonalds\McDonalds\bin\Debug\McDonalds.exe.config
+C:\Users\User\Desktop\McDonalds\McDonalds\obj\Debug\McDonalds.exe
+C:\Users\User\Desktop\McDonalds\McDonalds\obj\Debug\McDonalds.pdb
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\McDonalds.exe.config
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\McDonalds.exe
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\McDonalds.pdb
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\McDonalds.exe
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\McDonalds.pdb
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\Model.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\ViewModel.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\ServerConnection.dll
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\Model.pdb
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\ViewModel.pdb
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\bin\Debug\ServerConnection.pdb
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\McDonalds.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\CreditCardView.g.cs
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\LoginView.g.cs
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\MainView.g.cs
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\Registration.g.cs
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\App.g.cs
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\McDonalds_MarkupCompile.cache
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\McDonalds_MarkupCompile.lref
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\CreditCardView.baml
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\LoginView.baml
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\MainView.baml
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\Registration.baml
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\McDonalds.g.resources
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\McDonalds.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\IPZ\McDonalds\McDonalds\obj\Debug\McDonalds.csproj.GenerateResource.Cache

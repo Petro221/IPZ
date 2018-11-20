@@ -1,0 +1,173 @@
+﻿<Window x:Class="McDonalds.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:McDonalds"
+        mc:Ignorable="d"
+        Background="Aqua"
+        Icon="assets/logo.png"
+        Title="MainView" Height="450" Width="800">
+
+    <Grid Margin="20, 0, 20, 0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <ComboBox
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        SelectedItem="{Binding SelectedMainDish,
+                        UpdateSourceTrigger=PropertyChanged}"
+                        Height="30"
+                        ItemsSource="{Binding MainDishesObservableCollection,
+                        UpdateSourceTrigger=PropertyChanged}"
+                        Margin="10,0,10,0"
+                        Background="White"
+                        Foreground="Black"/>
+                </Grid>
+
+                <Grid Grid.Column="1">
+                    <ComboBox
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        SelectedItem="{Binding SelectedCategoryDish,
+                        UpdateSourceTrigger=PropertyChanged}"
+                        Height="30"
+                        ItemsSource="{Binding CategoryDishesObservableCollection,
+                        UpdateSourceTrigger=PropertyChanged}"
+                        Margin="10,0,10,0"
+                        Background="White"
+                        Foreground="Black"/>
+                </Grid>
+
+                <Grid Grid.Column="2">
+                    <Button
+                        Height="30"
+                        Width="30"
+                        VerticalAlignment="Center"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Command="{Binding LogoutCommand}"
+                        HorizontalAlignment="Center">
+                        <Image
+                            Source="assets/logout.png"/>
+                    </Button>
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <TextBox
+                        Name="NumberOfFoodTb"
+                        Text="{Binding HowManyFood, UpdateSourceTrigger=PropertyChanged}"
+                        TextAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        Margin="0, 10, 10, 10"
+                        FontSize="20"/>
+                </Grid>
+
+                <Grid Grid.Column="1">
+                    <Button
+                        Content="Save"
+                        Margin="10, 10, 0, 10" 
+                        FontSize="20"
+                        Background="Gold"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        IsEnabled="{Binding IsSaveEnabled, UpdateSourceTrigger=PropertyChanged}"
+                        Command="{Binding SaveCommand}"/>
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <RadioButton
+                    IsChecked="{Binding TakeOut, UpdateSourceTrigger=PropertyChanged}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Content="Take out"
+                    Foreground="White"
+                    FontSize="20"
+                    FontWeight="Bold"
+                    Margin="0,0,150,0"/>
+                <RadioButton
+                    IsChecked="{Binding EatIn, UpdateSourceTrigger=PropertyChanged}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Content="Eat in"
+                    Foreground="White"
+                    FontSize="20"
+                    FontWeight="Bold"
+                    Margin="150,0,0,0"/>
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <TextBlock
+                    Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}"
+                    TextAlignment="Center"
+                    Background="White"
+                    Foreground="Green"
+                    FontSize="30"
+                    FontWeight="Bold"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <TextBox
+                    Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}"
+                    TextAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    FontSize="18"
+                    Margin="20, 5, 20, 5"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <TextBox
+                    Text="{Binding LastName, UpdateSourceTrigger=PropertyChanged}"
+                    TextAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    FontSize="18"
+                    Margin="20, 5, 20, 5"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Button
+                IsEnabled="{Binding IsOrderEnabled, UpdateSourceTrigger=PropertyChanged}"
+                Content="ORDER IT !"
+                FontSize="34"
+                FontWeight="Bold"
+                Background="Gold"
+                Foreground="White"
+                Command="{Binding OrderCommand}"
+                Margin="30, 10, 30, 10"/>
+        </Grid>
+    </Grid>
+</Window>

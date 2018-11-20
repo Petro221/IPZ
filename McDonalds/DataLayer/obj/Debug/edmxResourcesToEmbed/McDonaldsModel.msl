@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="McDonaldsDbModelStoreContainer" CdmEntityContainer="McDonaldsDbEntities">
+    <EntitySetMapping Name="BankCreditCards">
+      <EntityTypeMapping TypeName="McDonaldsDbModel.BankCreditCard">
+        <MappingFragment StoreEntitySet="BankCreditCards">
+          <ScalarProperty Name="credit_card_date" ColumnName="credit_card_date" />
+          <ScalarProperty Name="credit_card_name" ColumnName="credit_card_name" />
+          <ScalarProperty Name="credit_card_number" ColumnName="credit_card_number" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoryDishes">
+      <EntityTypeMapping TypeName="McDonaldsDbModel.CategoryDish">
+        <MappingFragment StoreEntitySet="CategoryDishes">
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="number" ColumnName="number" />
+          <ScalarProperty Name="main_dish_id" ColumnName="main_dish_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MainDishes">
+      <EntityTypeMapping TypeName="McDonaldsDbModel.MainDish">
+        <MappingFragment StoreEntitySet="MainDishes">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderedFoods">
+      <EntityTypeMapping TypeName="McDonaldsDbModel.OrderedFood">
+        <MappingFragment StoreEntitySet="OrderedFood">
+          <ScalarProperty Name="number" ColumnName="number" />
+          <ScalarProperty Name="category_id" ColumnName="category_id" />
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="McDonaldsDbModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="ticket_number" ColumnName="ticket_number" />
+          <ScalarProperty Name="customer_last_name" ColumnName="customer_last_name" />
+          <ScalarProperty Name="customer_first_name" ColumnName="customer_first_name" />
+          <ScalarProperty Name="is_payed" ColumnName="is_payed" />
+          <ScalarProperty Name="eat_in" ColumnName="eat_in" />
+          <ScalarProperty Name="order_date" ColumnName="order_date" />
+          <ScalarProperty Name="sum_price" ColumnName="sum_price" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="McDonaldsDbModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
