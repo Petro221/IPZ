@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:McDonalds"
         mc:Ignorable="d"
         Title="Login"
-        Background="Aqua"
+        Background="YellowGreen"
         Icon="assets/logo.png"
         Height="450" 
         Width="300">

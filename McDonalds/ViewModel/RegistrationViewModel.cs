@@ -67,7 +67,7 @@ namespace ViewModel
         public string RepeatPassword { get; set; }
         public string Error
         {
-            get { => _error; }
+            get  => _error; 
             set { _error = value; OnPropertyChanged(nameof(Error)); }
         }
         public string ButtonColor { get; set; }
